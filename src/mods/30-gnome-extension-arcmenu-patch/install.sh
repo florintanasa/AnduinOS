@@ -5,7 +5,7 @@ set -u                  # treat unset variable as error
 print_ok "Patching Arc Menu..."
 
 print_ok "Patch Arc Menu logo..."
-mv ./logo.svg /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/icons/anduinos-logo.svg
+mv ./BRGVOS-blue.svg /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/icons/brgvos-logo.svg
 judge "Patch Arc Menu logo"
 
 print_ok "Patch Arc Menu text..."
