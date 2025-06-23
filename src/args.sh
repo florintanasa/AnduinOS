@@ -169,7 +169,7 @@ fi
 # * [('xkb', 'us'), ('ibus', 'rime')]
 # * [('xkb', 'us'), ('ibus', 'chewing')]
 # * [('xkb', 'us'), ('xkb', 'fr')]
-export CONFIG_INPUT_METHOD="[('xkb', 'us'), ('xkb', 'ro')]"
+export CONFIG_INPUT_METHOD="[('xkb', 'ro'), ('xkb', 'us')]"
 
 
 #============================
