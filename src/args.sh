@@ -49,13 +49,13 @@ echo "Language environment has been set to $LANG_MODE"
 export TARGET_UBUNTU_VERSION="questing"
 
 # See https://docs.anduinos.com/Install/Select-Best-Apt-Source.html
-export BUILD_UBUNTU_MIRROR="http://mirror.aiursoft.cn/ubuntu/"
+export BUILD_UBUNTU_MIRROR="https://ro.archive.ubuntu.com/ubuntu/"
 
 # Must be lowercase without special characters and spaces
-export TARGET_NAME="anduinos"
+export TARGET_NAME="brgvos"
 
 # Business name. No special characters or spaces
-export TARGET_BUSINESS_NAME="AnduinOS"
+export TARGET_BUSINESS_NAME="BRGV-OS"
 
 # Version number. Must be in the format of x.y.z
 export TARGET_BUILD_VERSION="1.4.1"
@@ -108,7 +108,7 @@ fi
 # flatpak:  install firefox from flathub (Only available if STORE_PROVIDER is set to "flatpak")
 # snap:     install firefox from snap (Only available if STORE_PROVIDER is set to "snap")
 # TODO: Snap firefox seems to be broken. Investigation required.
-export FIREFOX_PROVIDER="none"
+export FIREFOX_PROVIDER="flatpak"
 if [[ "$FIREFOX_PROVIDER" == "flatpak" && "$STORE_PROVIDER" != "flatpak" ]]; then
     echo "Error: FIREFOX_PROVIDER is set to flatpak, but STORE_PROVIDER is not set to flatpak"
     exit 1
@@ -260,7 +260,8 @@ export DEFAULT_CLI_TOOLS="
     smartmontools \
     traceroute \
     whois \
-    nmap
+    nmap \
+    mc
     "
 
 export DEFAULT_FLATPAK_TOOLS=""
