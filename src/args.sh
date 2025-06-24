@@ -238,6 +238,7 @@ export DEFAULT_APPS="
     gnome-browser-connector \
     gnome-control-center-faces \
     gnome-startup-applications \
+    simple-scan \
     policykit-desktop-privileges
 "
 
