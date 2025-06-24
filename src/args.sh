@@ -130,7 +130,7 @@ fi
 # The Firefox mirror for live system. If set, it will be used to replace the default PPA mirror.
 # This must be set if FIREFOX_PROVIDER is set to "deb"
 # Default: ppa.launchpadcontent.net
-export LIVE_FIREFOX_MIRROR=""
+export LIVE_FIREFOX_MIRROR="ppa.launchpadcontent.net"
 if [[ "$FIREFOX_PROVIDER" == "deb" && -z "$LIVE_FIREFOX_MIRROR" ]]; then
     echo "Error: FIREFOX_PROVIDER is deb, but didn't set LIVE_FIREFOX_MIRROR"
     exit 1
@@ -195,7 +195,7 @@ export CONFIG_WEATHER_LOCATION="[(uint32 0, 'Suceava,România', uint32 0, '47.53
 #============================
 # Live system configuration
 #============================
-export LIVE_UBUNTU_MIRROR="http://archive.ubuntu.com/ubuntu/"
+export LIVE_UBUNTU_MIRROR="https://ro.archive.ubuntu.com/ubuntu/"
 
 #============================
 # System apps configuration
@@ -262,6 +262,7 @@ export DEFAULT_CLI_TOOLS="
     traceroute \
     whois \
     nmap \
+    eza \
     mc
     "
 
