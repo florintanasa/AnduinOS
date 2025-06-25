@@ -192,6 +192,15 @@ apt install $INTERACTIVE \
     --no-install-recommends
 judge "Install gnome software"
 
+#print_ok "Installing LibreWolf browser..."
+#apt install $INTERACTIVE \
+#    extrepo --no-install-recommends
+#apt update
+#extrepo enable librewolf
+#apt install $INTERACTIVE \
+#    librewolf --no-install-recommends
+#judge "Installing LibreWolf browser"
+
 print_ok "Remove the default htop.desktop file"
 rm /usr/share/applications/htop.desktop || true
 judge "Remove the default htop.desktop file"
