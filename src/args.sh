@@ -239,6 +239,9 @@ export DEFAULT_APPS="
     gnome-control-center-faces \
     gnome-startup-applications \
     simple-scan \
+    gnome-calendar \
+    gnome-tweaks \
+    evolution \
     policykit-desktop-privileges
 "
 
@@ -266,7 +269,10 @@ export DEFAULT_CLI_TOOLS="
     mc
     "
 
-export DEFAULT_FLATPAK_TOOLS=""
+export DEFAULT_FLATPAK_TOOLS="
+    com.github.PintaProject.Pinta \
+    org.onlyoffice.desktopeditors
+    "
 # export DEFAULT_FLATPAK_TOOLS="
 #     chat.revolt.RevoltDesktop \
 #     com.discordapp.Discord \
