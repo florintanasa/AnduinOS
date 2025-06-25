@@ -46,7 +46,7 @@ echo "Language environment has been set to $LANG_MODE"
 # OS system information
 #==========================
 # Can be: jammy noble oracular plucky questing
-export TARGET_UBUNTU_VERSION="questing"
+export TARGET_UBUNTU_VERSION="plucky"
 
 # See https://docs.anduinos.com/Install/Select-Best-Apt-Source.html
 export BUILD_UBUNTU_MIRROR="https://ro.archive.ubuntu.com/ubuntu/"
@@ -108,7 +108,7 @@ fi
 # flatpak:  install firefox from flathub (Only available if STORE_PROVIDER is set to "flatpak")
 # snap:     install firefox from snap (Only available if STORE_PROVIDER is set to "snap")
 # TODO: Snap firefox seems to be broken. Investigation required.
-export FIREFOX_PROVIDER="flatpak"
+export FIREFOX_PROVIDER="none"
 if [[ "$FIREFOX_PROVIDER" == "flatpak" && "$STORE_PROVIDER" != "flatpak" ]]; then
     echo "Error: FIREFOX_PROVIDER is set to flatpak, but STORE_PROVIDER is not set to flatpak"
     exit 1
@@ -269,10 +269,7 @@ export DEFAULT_CLI_TOOLS="
     mc
     "
 
-export DEFAULT_FLATPAK_TOOLS="
-    com.github.PintaProject.Pinta \
-    org.onlyoffice.desktopeditors
-    "
+export DEFAULT_FLATPAK_TOOLS=""
 # export DEFAULT_FLATPAK_TOOLS="
 #     chat.revolt.RevoltDesktop \
 #     com.discordapp.Discord \
