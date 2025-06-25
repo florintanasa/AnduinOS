@@ -115,36 +115,36 @@ for ((i=0; i<lang_count; i++)); do
 done
 
 echo "[INFO] All build tasks have been completed."
-echo "[INFO] Generating torrent files..."
+#echo "[INFO] Generating torrent files..."
 
-shopt -s extglob
+#shopt -s extglob
 
-(
-  cd ./src/dist || exit 1
-  sudo apt install -y mktorrent
+#(
+#  cd ./src/dist || exit 1
+#  sudo apt install -y mktorrent
 
-  for f in AnduinOS-*-+([0-9]).@(iso|sha256); do
-    mv -- "$f" "${f%-+([0-9]).@(iso|sha256)}.${f##*.}"
-  done
+#  for f in AnduinOS-*-+([0-9]).@(iso|sha256); do
+#    mv -- "$f" "${f%-+([0-9]).@(iso|sha256)}.${f##*.}"
+#  done
 
-  shopt -u extglob
+#  shopt -u extglob
 
-  tracker=$(mktemp)
-  curl -fsSL -o "$tracker" \
-    https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt
+#  tracker=$(mktemp)
+#  curl -fsSL -o "$tracker" \
+#    https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt
 
-  mapfile -t raw_trackers < "$tracker"
-  rm "$tracker"
+#  mapfile -t raw_trackers < "$tracker"
+#  rm "$tracker"
 
-  trackers=()
-  for t in "${raw_trackers[@]}"; do
-    [[ -n "$t" ]] && trackers+=( -a "$t" )
-  done
+#  trackers=()
+#  for t in "${raw_trackers[@]}"; do
+#    [[ -n "$t" ]] && trackers+=( -a "$t" )
+#  done
 
-  for iso in AnduinOS-*.iso; do
-    base="${iso%.iso}"
-    echo "[INFO] Generating torrent for $iso"
-    echo "[INFO] Using trackers: ${trackers[@]}"
-    mktorrent "${trackers[@]}" -o "${base}.torrent" "$iso"
-  done
-)
+#  for iso in AnduinOS-*.iso; do
+#    base="${iso%.iso}"
+#    echo "[INFO] Generating torrent for $iso"
+#    echo "[INFO] Using trackers: ${trackers[@]}"
+#    mktorrent "${trackers[@]}" -o "${base}.torrent" "$iso"
+#  done
+#)
