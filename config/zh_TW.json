@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "zh_TW",
+        "lang_pack_code": "zh",
+        "input_method_install": "ibus-chewing",
+        "config_ibus_rime": "false",
+        "timezone": "Asia/Taipei",
+        "config_weather_location": "[(uint32 0, '臺北市, 臺灣', uint32 0, '25.0329694,121.5654177')]",
+        "config_input_method": "[('xkb', 'us'), ('ibus', 'chewing')]",
+        "live_ubuntu_mirror": "https://mirror.twds.com.tw/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
