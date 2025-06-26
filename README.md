@@ -1,6 +1,6 @@
 # BRGV-OS 
 
-[![GPL licensed](https://img.shields.io/badge/license-GPL-blue.svg)](https://gitlab.aiursoft.cn/anduin/anduinos/-/blob/1.1/LICENSE) 
+[![GPL licensed](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE) 
 
 <img align="right" width="100" height="100" src="./src/mods/30-gnome-extension-arcmenu-patch/BRGVOS-blue.svg">
 
