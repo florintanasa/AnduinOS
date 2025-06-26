@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "th_TH",
+        "lang_pack_code": "th",
+        "input_method_install": "ibus-libthai",
+        "config_ibus_rime": "false",
+        "timezone": "Asia/Bangkok",
+        "config_weather_location": "[(uint32 0, 'กรุงเทพมหานคร, ประเทศไทย', uint32 0, '13.7563309,100.5017651')]",
+        "config_input_method": "[('xkb', 'us'), ('ibus', 'libthai')]",
+        "live_ubuntu_mirror": "https://mirror.kku.ac.th/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
