@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "ru_RU",
+        "lang_pack_code": "ru",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Moscow",
+        "config_weather_location": "[(uint32 0, 'Москва, Россия', uint32 0, '55.755826,37.6173')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'ru')]",
+        "live_ubuntu_mirror": "https://mirror.team-host.ru/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
