@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "ar_SA",
+        "lang_pack_code": "ar",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Asia/Riyadh",
+        "config_weather_location": "[(uint32 0, 'الرياض, المملكة العربية السعودية', uint32 0, '24.7135517,46.6752957')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'ara')]",
+        "live_ubuntu_mirror": "https://mirrors.isu.net.sa/apt-mirror/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
