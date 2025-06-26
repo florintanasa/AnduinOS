@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "sv_SE",
+        "lang_pack_code": "sv",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Stockholm",
+        "config_weather_location": "[(uint32 0, 'Stockholm, Sverige', uint32 0, '59.3293235,18.0685808')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'se')]",
+        "live_ubuntu_mirror": "https://ftp.acc.umu.se/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
