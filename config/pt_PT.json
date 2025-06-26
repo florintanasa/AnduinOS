@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "pt_PT",
+        "lang_pack_code": "pt",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Lisbon",
+        "config_weather_location": "[(uint32 0, 'Lisboa, Portugal', uint32 0, '38.7222524,-9.1393366')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'pt')]",
+        "live_ubuntu_mirror": "http://archive.ubuntumirror.dei.uc.pt/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
