@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "vi_VN",
+        "lang_pack_code": "vi",
+        "input_method_install": "ibus-unikey",
+        "config_ibus_rime": "false",
+        "timezone": "Asia/Ho_Chi_Minh",
+        "config_weather_location": "[(uint32 0, 'Thành phố Hà Nội, Việt Nam', uint32 0, '21.028511,105.804817')]",
+        "config_input_method": "[('xkb', 'us'), ('ibus', 'Unikey')]",
+        "live_ubuntu_mirror": "https://mirror.bizflycloud.vn/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
