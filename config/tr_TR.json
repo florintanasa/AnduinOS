@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "tr_TR",
+        "lang_pack_code": "tr",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Istanbul",
+        "config_weather_location": "[(uint32 0, 'İstanbul, Türkiye', uint32 0, '41.0082376,28.9783589')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'tr')]",
+        "live_ubuntu_mirror": "https://mirror.alastyr.com/ubuntu/ubuntu-archive/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
