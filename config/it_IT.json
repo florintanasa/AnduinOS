@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "it_IT",
+        "lang_pack_code": "it",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Rome",
+        "config_weather_location": "[(uint32 0, 'Roma, Italia', uint32 0, '41.9027835,12.4963655')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'it')]",
+        "live_ubuntu_mirror": "https://ubuntu.mirror.garr.it/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
