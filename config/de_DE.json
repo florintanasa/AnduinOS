@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "de_DE",
+        "lang_pack_code": "de",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Berlin",
+        "config_weather_location": "[(uint32 0, 'Berlin, Deutschland', uint32 0, '52.5200066,13.404954')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'de')]",
+        "live_ubuntu_mirror": "https://ftp.uni-stuttgart.de/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
