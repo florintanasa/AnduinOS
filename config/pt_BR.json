@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "pt_BR",
+        "lang_pack_code": "pt",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "America/Sao_Paulo",
+        "config_weather_location": "[(uint32 0, 'São Paulo, Brasil', uint32 0, '-23.5505199,-46.6333094')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'br')]",
+        "live_ubuntu_mirror": "https://mirror.uepg.br/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
