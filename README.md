@@ -6,7 +6,7 @@
 
 **BRGV-OS** is based by [AnduinOS](https://www.anduinos.com/) (project source code is [here](https://github.com/Anduin2017/AnduinOS)), is a custom Ubuntu-based Linux distribution.
 
-![Screenshot](./screenshot.png)
+<!-- ![Screenshot](./screenshot.png) -->
 
 ## How to build
 
