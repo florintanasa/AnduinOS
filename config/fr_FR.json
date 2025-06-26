@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "fr_FR",
+        "lang_pack_code": "fr",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Paris",
+        "config_weather_location": "[(uint32 0, 'Paris, France', uint32 0, '48.8566969,2.3514616')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'fr')]",
+        "live_ubuntu_mirror": "https://mirror.ubuntu.ikoula.com/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
