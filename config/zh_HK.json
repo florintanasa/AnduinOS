@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "zh_HK",
+        "lang_pack_code": "zh",
+        "input_method_install": "ibus-table-cangjie",
+        "config_ibus_rime": "false",
+        "timezone": "Asia/Hong_Kong",
+        "config_weather_location": "[(uint32 0, '香港', uint32 0, '22.3193039,114.1693611')]",
+        "config_input_method": "[('xkb', 'us'), ('ibus', 'table:cangjie-big')]",
+        "live_ubuntu_mirror": "http://mirror.as.kamatera.com/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
