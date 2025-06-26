@@ -1,0 +1,15 @@
+[
+    {
+        "lang_mode": "nl_NL",
+        "lang_pack_code": "nl",
+        "input_method_install": "",
+        "config_ibus_rime": "false",
+        "timezone": "Europe/Amsterdam",
+        "config_weather_location": "[(uint32 0, 'Amsterdam, Nederland', uint32 0, '52.3675734,4.9041383')]",
+        "config_input_method": "[('xkb', 'us'), ('xkb', 'nl')]",
+        "live_ubuntu_mirror": "https://mirror.i3d.net/pub/ubuntu/",
+        "live_firefox_mirror": "ppa.launchpadcontent.net",
+        "flathub_mirror": "",
+        "flathub_gpg": ""
+    }
+]
