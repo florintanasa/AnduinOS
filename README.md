@@ -29,6 +29,8 @@ This command modify `./src/args.sh` with parameters from `./mods/ro_RO.json` for
 
 That's it. The built file will be an ISO file in the `./src/dist` directory.
 
+ISO file can be downloaded from [here](https://sourceforge.net/projects/brgv-os/) 
+
 Test ISO file result in virtual machine.
 Next video is a example...  
 
