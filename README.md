@@ -6,7 +6,7 @@
 
 **BRGV-OS** is based by [AnduinOS](https://www.anduinos.com/) (project source code is [here](https://github.com/Anduin2017/AnduinOS)), is a custom Ubuntu-based Linux distribution.
 
-<!-- ![Screenshot](./screenshot.png) -->
+![Screenshot](./screenshot.png)
 
 ## How to build
 
@@ -30,6 +30,9 @@ This command modify `./src/args.sh` with parameters from `./mods/ro_RO.json` for
 That's it. The built file will be an ISO file in the `./src/dist` directory.
 
 Test ISO file result in virtual machine.
+Next video is a posoble example...  
+
+![Test in virtual machine](https://www.youtube.com/watch?v=Belj3ji7XQ8)
 
 ## License
 
