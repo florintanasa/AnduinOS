@@ -30,7 +30,7 @@ This command modify `./src/args.sh` with parameters from `./mods/ro_RO.json` for
 That's it. The built file will be an ISO file in the `./src/dist` directory.
 
 Test ISO file result in virtual machine.
-Next video is a posoble example...  
+Next video is a example...  
 
 ![Test in virtual machine](https://www.youtube.com/watch?v=Belj3ji7XQ8)
 
