@@ -32,7 +32,9 @@ That's it. The built file will be an ISO file in the `./src/dist` directory.
 Test ISO file result in virtual machine.
 Next video is a example...  
 
-![Test in virtual machine](https://www.youtube.com/watch?v=Belj3ji7XQ8)
+[<img src="https://img.youtube.com/vi/Belj3ji7XQ8/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/Belj3ji7XQ8)
+
 
 ## License
 
